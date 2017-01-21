@@ -2,6 +2,8 @@
 
 RxConsumers is a library to smooth RxJava usage by functionally composing consumers.
 
+For the RxJava 1.X version please go to [RxActions](https://github.com/pakoito/RxActions).
+
 ##Rationale
 
 Sometimes you have to describe side effects in your Observable chain, by means of `doOnNext()`, `doOnError()`, or even in the subscription. Writing several of those operators may incur on minimal performance penalties, and make the chain more verbose. RxConsumers allows you to combine those actions sequentially.
